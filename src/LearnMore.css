@@ -1,0 +1,102 @@
+.learn-more-wrapper {
+  max-width: 100%;
+  margin: auto;
+  padding: 30px 20px;
+  font-family: 'Segoe UI', sans-serif;
+  color: #2c3e50;
+  background-color: #c2d8d4;
+  border-radius: 12px;
+}
+
+.page-title {
+  text-align: center;
+  color: #34495e;
+  margin-bottom: 35px;
+  font-weight: 700;
+}
+
+/* Cards Base */
+.feature-card {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 25px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover Effect */
+.feature-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+/* Icon + Title Layout */
+.icon-title {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.feature-icon {
+  font-size: 1.5rem;
+  color: #f4b13e;
+}
+
+.feature-card h2 {
+  color: #2c3e50;
+  font-size: 1.3rem;
+  margin: 0;
+}
+
+.feature-card p {
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+
+/* Image Zoom Animation */
+.feature-card img {
+  width: 50%;
+  border-radius: 10px;
+  transform: scale(0.95);
+  transition: transform 0.6s ease, filter 0.6s ease;
+}
+
+.feature-card[data-aos].aos-animate img {
+  transform: scale(1);
+}
+
+/* Button */
+.cta-container {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.cta-button {
+  background-color: #f4b13e;
+  color: black;
+  font-weight: bold;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1.1rem;
+  transition: background 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #e3a230;
+}
+
+/* Custom fade + blur effect */
+.fade-up-blur {
+  filter: blur(5px);
+  transform: translateY(20px);
+  transition: filter 0.5s ease, transform 0.5s ease;
+}
+
+[data-aos].aos-animate.fade-up-blur {
+  filter: blur(0);
+  transform: translateY(0);
+}

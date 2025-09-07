@@ -1,0 +1,48 @@
+.contact-container {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 25px;
+  background: whitesmoke;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(247, 245, 167, 0.1);
+}
+
+.contact-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #2e7d32;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 12px;
+  color:black;
+  margin: 8px 0;
+  border-radius: 8px;
+  background-color: #ccc;
+  border: 1px solid #ade7de;
+  font-size: 14px;
+}
+
+.contact-form textarea {
+  resize: none;
+  height: 120px;
+}
+
+.contact-form button {
+  width: 100%;
+  padding: 12px;
+  background-color: #25d366; /* WhatsApp green */
+  color: whitesmoke;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.contact-form button:hover {
+  background-color: #1ebc57;
+}
