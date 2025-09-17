@@ -63,6 +63,33 @@ section {
   margin:0;
   padding:0;
 }
+@media (min-width: 395px) and (max-width: 1167px) {
+  .hero {
+    flex-direction: column; /* Stack text and image vertically */
+    text-align: center;
+    padding: 20px;
+  }
+
+  .hero-text {
+    padding-right: 0;
+    margin-bottom: 20px;
+  }
+
+  .hero-text h1 {
+    font-size: 2.2rem; /* Smaller font for better fit */
+  }
+
+  .hero-text p {
+    font-size: 1.4rem;
+  }
+
+  .hero-image img {
+    width: 80%; /* Scale down image */
+    margin: 0 auto;
+    display: block;
+  }
+}
+
 .mainLogo{
   width:40%;
   margin:0;
@@ -209,7 +236,7 @@ font-size:29px;
   flex-wrap: wrap;
   font-size: 0.9rem;
 }
-@media screen and (max-width: 1246px) {
+@media screen and (max-width: 769px) {
   .mainLogo {
     width: 70%;
     top: -20px;
@@ -257,7 +284,7 @@ font-size:29px;
   background-color: #f0be6f !important;
   color: black !important;
 }
-@media (max-width: 1050px) {
+@media (max-width: 769px) {
   .dropdown-menu {
     font-size: 0.75rem;
     min-width: 90px;

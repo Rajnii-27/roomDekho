@@ -21,7 +21,7 @@ import ContactButton from './ContactButton';
 
 function App() {
   return (
-    <Routes>
+    <Routes >
       {/* Public routes */}
       <Route path="/" element={<HomePage />} />
       <Route path="/HomeOwnerSignup" element={<HomeOwnerSignup />} />
